@@ -1,12 +1,12 @@
 # GenAI Developer · Contract Flight Deck
 
-[![deploy](https://github.com/duttsiddharth/genaisimulation/actions/workflows/deploy.yml/badge.svg)](https://github.com/duttsiddharth/genaisimulation/actions/workflows/deploy.yml)
-[![ci](https://github.com/duttsiddharth/genaisimulation/actions/workflows/ci.yml/badge.svg)](https://github.com/duttsiddharth/genaisimulation/actions/workflows/ci.yml)
-[![live demo](https://img.shields.io/badge/demo-live-22d3ee.svg)](https://duttsiddharth.github.io/genaisimulation/)
+[![deploy](https://github.com/duttsiddharth/GenAISimulation/actions/workflows/deploy.yml/badge.svg)](https://github.com/duttsiddharth/GenAISimulation/actions/workflows/deploy.yml)
+[![ci](https://github.com/duttsiddharth/GenAISimulation/actions/workflows/ci.yml/badge.svg)](https://github.com/duttsiddharth/GenAISimulation/actions/workflows/ci.yml)
+[![live demo](https://img.shields.io/badge/demo-live-22d3ee.svg)](https://duttsiddharth.github.io/GenAISimulation/)
 
 An interactive simulator to **practice, learn and deliver** on a GenAI Developer role. The retrieval engine is real — chunking, TF-IDF + BM25 hybrid scoring and ranking all run in the browser — so it's a working rig, not a mockup.
 
-**▶ Live demo: https://duttsiddharth.github.io/genaisimulation/**
+**▶ Live demo: https://duttsiddharth.github.io/GenAISimulation/**
 
 ---
 
@@ -36,7 +36,7 @@ Deployment is automated by `.github/workflows/deploy.yml`. One-time setup:
 1. Push to `main`.
 2. Repo **Settings → Pages → Build and deployment → Source: GitHub Actions**.
 
-Every push to `main` then builds and publishes to `https://duttsiddharth.github.io/genaisimulation/`. The `base` in `vite.config.js` is set to `/genaisimulation/` to match the repo name — if you rename the repo, update that value too.
+Every push to `main` then builds and publishes to `https://duttsiddharth.github.io/GenAISimulation/`. The `base` in `vite.config.js` is set to `/GenAISimulation/` to match the repo name — if you rename the repo, update that value too.
 
 ## Notes
 
